@@ -1,9 +1,9 @@
 <?php
 
-$usu = "qadl648";
-$pas = "Granavenida2";
-$hos = "qadl648.area07aa.org";
-$dbs = "qadl648";
+$usu = "usuario";
+$pas = "password";
+$hos = "host";
+$dbs = "bbdds";
 
 $conexion = mysqli_connect($hos,$usu,$pas,$dbs);
 if(!$conexion) {
